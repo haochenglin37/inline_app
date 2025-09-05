@@ -1,0 +1,26 @@
+{
+  "inline_default": {
+    "date": "input[name='date']",
+    "time": "input[name='time']",
+    "people": "input[name='people']",
+    "name": "input[name='name']",
+    "phone": "input[name='phone']",
+    "email": "input[name='email']",
+    "card_number": "input[name='card_number']",
+    "card_expiry": "input[name='card_expiry']",
+    "card_cvv": "input[name='card_cvv']",
+    "submit": "button[type='submit']"
+  },
+  "LESbsL9bsZtLcRHgaeq": {
+    "date": "input[name='date']",
+    "time": "input[name='time']",
+    "people": "input[name='people']",
+    "name": "input[name='name']",
+    "phone": "input[name='phone']",
+    "email": "input[name='email']",
+    "card_number": "input[name='card_number']",
+    "card_expiry": "input[name='card_expiry']",
+    "card_cvv": "input[name='card_cvv']",
+    "submit": "button[type='submit']"
+  }
+}

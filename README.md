@@ -11,6 +11,10 @@ form and submit it. The script supports:
 * specifying desired date, time and number of guests
 * optional backup date if the preferred date fails
 * delaying execution until a specific time (`--start-after`)
+* custom CSS selectors loaded from a JSON config (`--selector-config` and
+  `--profile`)
+* personal details loaded from a JSON file (`--settings`)
+
 
 ### Requirements
 
@@ -28,8 +32,17 @@ python auto_booking.py \
     --time 18:30 \
     --people 2 \
     --backup-date 2025-09-07 \
-    --start-after "2025-09-05 23:55"
+    --start-after "2025-09-05 23:55" \
+    --selector-config selectors.example.json \
+    --settings settings.example.json \
+    --profile LESbsL9bsZtLcRHgaeq
 ```
 
-Update the CSS selectors in `auto_booking.py` after inspecting the booking page,
-as they are placeholders in this example.
+Inspect the booking page and update the selectors in the JSON file. An
+example configuration is provided in `selectors.example.json` with a profile
+named `LESbsL9bsZtLcRHgaeq` corresponding to
+`https://inline.app/booking/-LESbsL9bsZtLcRHgaeq/-LESbsL9bsZtLcRHgaer?language=zh-tw`.
+
+Store your contact and payment information in a separate JSON file (see
+`settings.example.json` for the required keys) and pass it via `--settings`.
+
