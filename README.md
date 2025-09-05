@@ -15,6 +15,7 @@ form and submit it. The script supports:
   `--profile`)
 * personal details loaded from a JSON file (`--settings`)
 
+
 ### Requirements
 
 * Python 3.8+
@@ -44,3 +45,4 @@ named `LESbsL9bsZtLcRHgaeq` corresponding to
 
 Store your contact and payment information in a separate JSON file (see
 `settings.example.json` for the required keys) and pass it via `--settings`.
+

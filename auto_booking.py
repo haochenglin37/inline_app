@@ -27,8 +27,7 @@ def book(
     wait = WebDriverWait(driver, 20)
 
     date_input = wait.until(
-        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["date"]))
-    )
+        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["date"])))
     date_input.clear()
     date_input.send_keys(date)
 
@@ -58,8 +57,7 @@ def book(
             field.send_keys(value)
 
     submit_btn = wait.until(
-        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["submit"]))
-    )
+        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["submit"])))
     submit_btn.click()
 
 
@@ -74,6 +72,7 @@ def main() -> None:
     parser.add_argument(
         "--start-after", help="Wait until YYYY-MM-DD HH:MM before booking"
     )
+
     parser.add_argument(
         "--selector-config",
         default="selectors.example.json",
