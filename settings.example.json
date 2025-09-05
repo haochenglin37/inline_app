@@ -1,0 +1,8 @@
+{
+  "name": "Your Name",
+  "phone": "0912345678",
+  "email": "you@example.com",
+  "card_number": "4111111111111111",
+  "card_expiry": "12/26",
+  "card_cvv": "123"
+}
