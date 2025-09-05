@@ -1,0 +1,14 @@
+{
+  "inline_default": {
+    "date": "input[name='date']",
+    "time": "input[name='time']",
+    "people": "input[name='people']",
+    "submit": "button[type='submit']"
+  },
+  "LESbsL9bsZtLcRHgaeq": {
+    "date": "input[name='date']",
+    "time": "input[name='time']",
+    "people": "input[name='people']",
+    "submit": "button[type='submit']"
+  }
+}
