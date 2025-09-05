@@ -26,8 +26,7 @@ def book(
     wait = WebDriverWait(driver, 20)
 
     date_input = wait.until(
-        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["date"]))
-    )
+        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["date"])))
     date_input.clear()
     date_input.send_keys(date)
 
@@ -40,8 +39,7 @@ def book(
     people_input.send_keys(str(people))
 
     submit_btn = wait.until(
-        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["submit"]))
-    )
+        EC.element_to_be_clickable((By.CSS_SELECTOR, selectors["submit"])))
     submit_btn.click()
 
 

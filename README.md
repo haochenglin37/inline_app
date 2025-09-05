@@ -14,6 +14,7 @@ form and submit it. The script supports:
 * custom CSS selectors loaded from a JSON config (`--selector-config` and
   `--profile`)
 
+
 ### Requirements
 
 * Python 3.8+
@@ -39,3 +40,4 @@ Inspect the booking page and update the selectors in the JSON file. An
 example configuration is provided in `selectors.example.json` with a profile
 named `LESbsL9bsZtLcRHgaeq` corresponding to
 `https://inline.app/booking/-LESbsL9bsZtLcRHgaeq/-LESbsL9bsZtLcRHgaer?language=zh-tw`.
+
